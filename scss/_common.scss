@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.web {
+    display: flex; 
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+body {
+    background-color: $brand-color-second;
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: $brand-color;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: $brand-font;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: $brand-font;
+}

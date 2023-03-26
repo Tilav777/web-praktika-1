@@ -1,0 +1,28 @@
+.menu-bar ul{
+    width: 100%;
+    border-bottom: 1px solid $brand-color;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.menu-bar ul li {
+    padding: 20px 36px 13px 36px;
+    border-radius: 12px 12px 0 0;
+}
+
+.menu-active {
+    border-top: 1px solid $brand-color;
+    border-left: 1px solid $brand-color;
+    border-right: 1px solid $brand-color;
+    border-bottom: none;
+    position: relative;
+}
+.menu-active::after {
+    content: "";
+    min-width: 100%;
+    position: absolute;
+    height: 1px;
+    bottom: -1px;
+    left: 0;
+    background-color: $brand-color-second;
+}

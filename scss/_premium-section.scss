@@ -1,0 +1,23 @@
+.premium-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        & h2 {
+
+        }
+    }
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    & img:nth-child(2) {
+        
+    }
+    
+}

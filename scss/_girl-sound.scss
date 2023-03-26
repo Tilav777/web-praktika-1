@@ -1,0 +1,34 @@
+.girl-sound__main-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-body {
+    &__right {
+        width: 543px;
+
+        & h2 {
+            font-size: 56px;
+            font-weight: 700;
+            color: $brand-color;
+            font-family: $brand-font;
+            line-height: 70px;
+            margin-bottom: 10px;
+        }
+        & p {
+            font-size: 16px;
+            font-weight: 400;
+            color: $brand-color;
+            font-family: $brand-font;
+            line-height: 25px;
+        }
+    }
+}
+
+.girl-sound {
+    background-image: url(../assets/icons/waves.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -90px;
+    padding: 0 0 40px 0;
+}
