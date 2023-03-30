@@ -2,13 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 60px 0 0 0;
     &__top {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        & h2 {
 
+        & h2 {
+            font-weight: 700;
+            font-size: 64px;
+            font-family: $brand-font;
+            color: $brand-color;
+            margin-bottom: 10px;
+        }
+        & p {
+            width: 558px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            color: $brand-color;
+            line-height: 30px;
+            margin-bottom: 88px;
         }
     }
     &__bottom {
@@ -17,7 +31,63 @@
         align-items: center;
     }
     & img:nth-child(2) {
-        
+        position: relative;
+        bottom: 837px;
+        right: 118px;
     }
-    
+    & img:nth-child(3) {
+        position: relative;
+        bottom: 853px;
+        right: -200px;
+    }
+    & img:nth-child(4) {
+        position: relative;
+        bottom: 473px;
+        right: 277px;
+    }
+    & img:nth-child(5) {
+        position: relative;
+        bottom: 480px;
+        right: 170px;
+    }
+    & img:nth-child(6) {
+        position: relative;
+        bottom: 506px;
+        right: -244px;
+    }
+}
+.plus-modal {
+    width: 350px;
+    height: 106px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+    background-color: $brand-color-second;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px 0;
+    font-family: $brand-font;
+    position: relative;
+    bottom: 1111px;
+    left: 415px;
+
+    & p:nth-child(1) {
+        color: $brand-color;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    & p:nth-child(2) {
+        color: $brand-color;
+        font-size: 18px;
+        font-weight: 400;
+        color: $brand-color;
+    }
+}
+
+.premium-section {
+    background-image: url("../assets/images/Union_left.png") , url("../assets/images/Union_right.png");
+    background-repeat: no-repeat;
+    background-position: left, right;
 }

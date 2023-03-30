@@ -255,14 +255,91 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 60px 0 0 0;
 }
 .premium-design__top {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.premium-design__top h2 {
+  font-weight: 700;
+  font-size: 64px;
+  font-family: sans-serif;
+  color: #191919;
+  margin-bottom: 10px;
+}
+.premium-design__top p {
+  width: 558px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #191919;
+  line-height: 30px;
+  margin-bottom: 88px;
+}
 .premium-design__bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.premium-design img:nth-child(2) {
+  position: relative;
+  bottom: 837px;
+  right: 118px;
+}
+.premium-design img:nth-child(3) {
+  position: relative;
+  bottom: 853px;
+  right: -200px;
+}
+.premium-design img:nth-child(4) {
+  position: relative;
+  bottom: 473px;
+  right: 277px;
+}
+.premium-design img:nth-child(5) {
+  position: relative;
+  bottom: 480px;
+  right: 170px;
+}
+.premium-design img:nth-child(6) {
+  position: relative;
+  bottom: 506px;
+  right: -244px;
+}
+
+.plus-modal {
+  width: 350px;
+  height: 106px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 10px 0;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 1111px;
+  left: 415px;
+}
+.plus-modal p:nth-child(1) {
+  color: #191919;
+  font-size: 18px;
+  font-weight: 700;
+}
+.plus-modal p:nth-child(2) {
+  color: #191919;
+  font-size: 18px;
+  font-weight: 400;
+  color: #191919;
+}
+
+.premium-section {
+  background-image: url("../assets/images/Union_left.png"), url("../assets/images/Union_right.png");
+  background-repeat: no-repeat;
+  background-position: left, right;
 }/*# sourceMappingURL=main.css.map */
