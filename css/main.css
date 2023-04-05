@@ -342,4 +342,55 @@ a {
   background-image: url("../assets/images/Union_left.png"), url("../assets/images/Union_right.png");
   background-repeat: no-repeat;
   background-position: left, right;
+}
+
+.batters {
+  position: relative;
+  top: -350px;
+}
+.batters-main {
+  display: flex;
+  align-items: center;
+}
+.batters-main__title {
+  display: flex;
+  flex-direction: column;
+}
+.batters-main__title h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #191919;
+  font-family: sans-serif;
+}
+.batters-main__title p {
+  font-family: #191919;
+  color: #191919;
+  font-size: 18px;
+  font-weight: 400;
+}
+.batters-main__img {
+  position: relative;
+  right: 300px;
+  width: 50%;
+}
+.batters-main__img span {
+  width: 416px;
+  height: 600px;
+  background-color: rgb(246, 176, 56);
+  position: absolute;
+  border-radius: 10px;
+  z-index: -1;
+  top: 179px;
+  left: 507px;
+}
+.batters-main__img img:nth-child(2) {
+  position: absolute;
+  top: 577px;
+  right: 79px;
+}
+.batters-main__img img:nth-child(1) {
+  background-image: url("../assets/icons/waves.svg");
+  background-repeat: no-repeat;
+  background-size: 943px 893px;
+  background-position: 226px 108px;
 }/*# sourceMappingURL=main.css.map */

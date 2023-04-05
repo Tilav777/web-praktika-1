@@ -1,0 +1,57 @@
+.batters {
+    position: relative;
+    top: -350px;
+    &-main {
+        display: flex;
+        align-items: center;
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+
+            & h2 {
+                font-size: 64px;
+                font-weight: 700;
+                color: $brand-color;
+                font-family: $brand-font;
+            }
+            & p {
+                font-family: $brand-color;
+                color: $brand-color;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+
+        &__img {
+            position: relative;
+            right: 300px;
+            width: 50%;
+            & span {
+                width: 416px;
+                height: 600px;
+                background-color: rgb(246, 176, 56);
+                position: absolute;
+                border-radius: 10px;
+                z-index: -1;
+                top: 179px;
+                left: 507px;
+            }
+
+            & img:nth-child(2) {
+                position: absolute;
+                top: 577px;
+                right: 79px;
+            }
+
+            & img:nth-child(1) {
+                background-image: url("../assets/icons/waves.svg");
+                background-repeat: no-repeat;
+                background-size: 943px 893px;
+                background-position: 226px 108px;
+                
+            }
+        }
+    }    
+}
+
